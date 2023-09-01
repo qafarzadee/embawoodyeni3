@@ -247,7 +247,7 @@ header a ion-icon {
     
 }
 .filter-m select{
-    border: dotted;
+    border: solid;
     border-radius: 15px;
     width: 200px;
     height: 30px;
@@ -1043,7 +1043,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 .filter-m select{
     width: 280px;
     height: 35px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
   .section2 .container {
