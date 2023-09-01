@@ -317,7 +317,7 @@ header a ion-icon {
   font-kerning: auto;
 }
 [data-pagination] {
-  font-size: 16pt;
+  font-size: 18pt;
   line-height: 1;
   font-weight: 400;
   font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
@@ -366,12 +366,12 @@ header a ion-icon {
 }
 @media (max-width: 1200px) {
   [data-pagination] {
-    font-size: 14pt;
+    font-size: 16pt;
   }
 }
 @media (max-width: 650px) {
   [data-pagination] {
-    font-size: 9pt;
+    font-size: 12pt;
   }
 }
 
