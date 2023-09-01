@@ -658,6 +658,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     height: 30px;
     font-size: 14px;
     border-color: black;
+    border: solid;
 }
 
   .section2 .container {
