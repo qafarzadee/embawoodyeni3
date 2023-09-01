@@ -657,6 +657,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     width: 180px;
     height: 30px;
     font-size: 14px;
+    border-color: black;
 }
 
   .section2 .container {
@@ -1038,6 +1039,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     
 }
 .filter-m select{
+    border-color: black;
     width: 280px;
     height: 35px;
     font-size: 20px;
