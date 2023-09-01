@@ -1034,13 +1034,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 .filter-m{
     display: flex;
-    justify-content: center;
+    justify-content: end;
     
 }
 .filter-m select{
-    width: 180px;
+    width: 100px;
     height: 35px;
-    font-size: 15px;
+    font-size: 10px;
 }
 
   .section2 .container {
