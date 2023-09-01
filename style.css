@@ -238,6 +238,21 @@ header a ion-icon {
   align-items: end;
   justify-content: space-between;
 }
+.filterproduct{
+    width: 1220px;
+}
+.filter-m{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.filter-m select{
+    border: dashed;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
 
 .items_title {
   display: flex;
@@ -630,6 +645,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .section2 {
     width: 600px;
   }
+  .filterproduct{
+    width: 600px;
+}
+.filter-m{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.filter-m select{
+    width: 180px;
+    height: 30px;
+    font-size: 14px;
+}
 
   .section2 .container {
     display: flex;
@@ -1001,6 +1029,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   .section2 {
     width: 340px;
   }
+  .filterproduct{
+    width: 340px;
+}
+.filter-m{
+    display: flex;
+    justify-content: center;
+    
+}
+.filter-m select{
+    width: 280px;
+    height: 35px;
+    font-size: 20px;
+}
 
   .section2 .container {
     display: flex;
