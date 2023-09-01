@@ -247,7 +247,7 @@ header a ion-icon {
     
 }
 .filter-m select{
-    border: solid;
+    border: 0.8px solid;
     border-radius: 15px;
     width: 200px;
     height: 30px;
