@@ -247,11 +247,14 @@ header a ion-icon {
     
 }
 .filter-m select{
-    border: dashed;
+    border: dotted;
     border-radius: 15px;
     width: 200px;
     height: 30px;
     font-size: 16px;
+    border-color: black;
+    background-color: white;
+    color: black;
 }
 
 .items_title {
@@ -1034,13 +1037,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 .filter-m{
     display: flex;
-    justify-content: end;
+    justify-content: center;
     
 }
 .filter-m select{
-    width: 100px;
+    width: 280px;
     height: 35px;
-    font-size: 10px;
+    font-size: 20px;
 }
 
   .section2 .container {
