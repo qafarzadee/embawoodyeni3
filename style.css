@@ -3494,6 +3494,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   flex-direction: column;
   gap: 10px;
 }
+.comment_left div{
+  display: flex;
+  flex-direction: column;
+}
+.comment_left div div{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  
+}
 
 .comment_left h1 {
   font-size: 16px;
