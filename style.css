@@ -232,6 +232,7 @@ width: 40px;
 .catalog_container{
   width: 900px;
   display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   flex-direction: row;
   justify-content: center;
 }
@@ -798,6 +799,87 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     align-items: center;
     margin: 0px auto;
   }
+  .widget_cards{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .widget_cards_container{
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .widget_card img{
+  width: 40px;
+  }
+  .widget_card span{
+    display: block;
+    font-size: 16px;
+  }
+  .widget_card{
+    width: 250px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 25px 15px 25px; */
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    text-align: center;
+  }
+  .widget_card:hover{
+    cursor: pointer;
+  }
+  .catalog_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+  }
+  .catalog_container{
+    width: 600px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .catalog_container_left img{
+    width: 600px;
+  }
+  .catalog_container_right{
+    width: 256px;
+    padding: 20px 30px;
+      display: flex;
+      align-items: flex-start;
+      background: #ffffff;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .catalog_button button{
+    border: 1px solid #000;
+    background-color: white;
+    transition: 0.4s;
+      padding: 0 10px;
+      line-height: 40px;
+      font-size: 17px;
+      margin-top: 10px;
+  }
+  .catalog_container:hover .catalog_button button{
+  background-color: #7ab70a;
+  color: white;
+  cursor: pointer;
+  }
+  .catalog_container:hover{
+    cursor: pointer;
+  }
   .section2 {
     width: 600px;
   }
@@ -1181,6 +1263,87 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
     justify-content: center;
     align-items: center;
     margin: 0px auto;
+  }
+  .widget_cards{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+  }
+  .widget_cards_container{
+    width: 340px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .widget_card img{
+  width: 30px;
+  }
+  .widget_card span{
+    display: block;
+    font-size: 14px;
+  }
+  .widget_card{
+    width: 165px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 25px 15px 25px; */
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #dfdfdf;
+    text-align: center;
+  }
+  .widget_card:hover{
+    cursor: pointer;
+  }
+  .catalog_section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+  }
+  .catalog_container{
+    width: 340px;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .catalog_container_left img{
+    width: 340px;
+  }
+  .catalog_container_right{
+    width: 256px;
+    padding: 20px 30px;
+      display: flex;
+      align-items: flex-start;
+      background: #ffffff;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .catalog_button button{
+    border: 1px solid #000;
+    background-color: white;
+    transition: 0.4s;
+      padding: 0 10px;
+      line-height: 40px;
+      font-size: 17px;
+      margin-top: 10px;
+  }
+  .catalog_container:hover .catalog_button button{
+  background-color: #7ab70a;
+  color: white;
+  cursor: pointer;
+  }
+  .catalog_container:hover{
+    cursor: pointer;
   }
   .section2 {
     width: 340px;
